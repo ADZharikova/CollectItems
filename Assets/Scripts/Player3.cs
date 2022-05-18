@@ -13,6 +13,7 @@ public class Player3 : MonoBehaviour
     private void Awake()
     {
         _rd = GetComponent<Rigidbody>();
+        ScoreText.text = "Score: " + _score;
 
     }
 
